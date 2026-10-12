@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birthday Surprise 💙</title>
+<style>
+body{margin:0;padding:25px;background:linear-gradient(160deg,#dff4ff,#9ccfff,#eaf7ff);color:#285482;font-family:Georgia,serif;text-align:center}
+main{max-width:440px;margin:auto}
+.card{background:white;border-radius:24px;padding:22px;margin:20px 0;box-shadow:0 8px 25px #487eb522}
+h1,h2{color:#397fc5}
+button{border:0;border-radius:25px;background:#4e94e5;color:white;padding:13px 23px}
+.envelope{width:210px;height:135px;background:#6ba5ed;margin:35px auto;cursor:pointer;padding-top:45px;box-sizing:border-box;font-size:40px}
+#letter{display:none;text-align:left;background:#f5faff;padding:20px;border:2px dashed #a7cdf5}
+.photos{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+img{width:100%;object-fit:cover}
+</style>
+</head>
+<body><main>
+<h1>Happy Birthday! 💙</h1>
+<p>For my favorite human ♡</p>
+<div class="card"><p>Tap the envelope! 💌</p>
+<div class="envelope" onclick="document.getElementById('letter').style.display='block'">💌</div>
+</div>
+<div class="card" id="letter"><h2>Dear My Favorite Person 💙</h2>
+<p>Happy birthday, sayanggg! 🎂</p>
+<p>Semoga hari-harimu selalu dipenuhi kebahagiaan. Terima kasih sudah hadir di hidupku dan membuat banyak kenangan indah bersamaku.</p>
+<p>Semoga semua impianmu tercapai. Tetap jadi dirimu yang lucu dan istimewa, yaa!</p>
+<p>I love you so much! ♡</p></div>
+<div class="card"><h2>Our Little Memories 📸</h2>
+<div class="photos"><img src="foto-berdua.jpg" alt="Foto berdua"><img src="foto-pacar.jpg" alt="Foto pacar"></div>
+</div>
+<div class="card"><h2>A Song For You 🎧</h2>
+<audio controls loop style="width:100%"><source src="lagu.mp3" type="audio/mpeg"></audio>
+</div>
+<p>Made with love, just for you ♡</p>
+</main></body></html>
